@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+</head>
+<body>
+    <form action="FormBackend.html">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" name="myName" id="Name" placeholder="Your Name" required>
+        </div>
+        <br>
+        <label for="Email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="Email" placeholder="EmailId" required>
+        </div>
+        <br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd"> 
+        <br>
+        <div>
+            Langauage 
+            <br>
+            <input type="radio" name="myLanguage"> React <br>
+            <input type="radio" name="myLanguage"> Angular <br>
+            <input type="radio" name="myLanguage"> Vue <br>
+        </div>
+
+        <div>
+            Course <br>
+            <input type="checkbox" name="myAgree">MERN <br>
+            <input type="checkbox" name="myAgree">MEAN <br>
+            <input type="checkbox" name="myAgree">MEVN <br>
+        </div>
+        <br>
+        <label for="dropdwn">Field: </label>
+        <select name="Field" id="dropdwn">
+            <option value="Select Course" selected>Select Course</option>
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="Backend">BackEnd</option>
+            <option value="Full Stack">Full Stack</option>
+           
+        </select>
+        <div>
+            <br><textarea name="myText" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Number">Number</label>
+            <input type="number" name="myNumber" id="Number">
+            <input type="submit" value="Submit Now">
+
+        </div>
+    </form>
+
+    <hr>
+    <h1>Tables</h1>
+    <a href="./table.html">Click here to move to Table</a>
+
+</body>
+</html>
