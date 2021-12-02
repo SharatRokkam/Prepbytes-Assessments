@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.topheading{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    background: linear-gradient(to right, red, green, yellow);
+    margin-left: 0px;
+}
+.navbar{
+    border: 4px solid rgb(27, 1, 1);
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(102, 136, 236);
+    padding: 5px 20px;
+    font-size: 16px;
+
+}
+.navbar li{
+    text-align: center;
+    
+}
+.content-box {
+    border: 2px solid red;
+    background-color: rgb(43, 202, 194);
+    padding: 0px 20px;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 20px;
+}
+.box {
+    border: 2px solid rgb(65, 190, 65);
+    margin: 0px 20px;
+    border-radius: 10px;
+    background-color: rgb(107, 155, 140);
+}
+.upper {
+    height: fit-content;
+}
+ 
+.lower {
+    height: fit-content;
+}
+.performer-heading {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+    background: linear-gradient(to right, red, yellow, red);
+    padding-bottom: 10px;
+}
+.performer-container {
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    background: radial-gradient( ellipse, blue, rgb(26, 130, 172), rgb(32, 129, 32) );
+}
+.performer {
+    text-align: center;
+    border: 2px solid red;
+    background-color: yellow;
+    color: red;
+    margin: 0px 30px;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+.best-heading {
+    text-align: center;
+    background-color: rgb(94, 255, 0);
+    padding-bottom: 20px;
+    color: white;
+    margin: 20px 0px;
+}
+.best-heading h3{
+    padding-top: 7px;
+    font-size: 20px;
+
+    
+}
+.mid-content {
+    display: flex;
+}
+.mid-left-side {
+    margin-right: 20px;
+}
+.mid-left-upper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+}
+.mid-left-upper1 {
+    color: white;
+    background-color: green;
+    font-size: 25px;
+}
+.mid-left-upper2 {
+    color: white;
+    background-color: skyblue;
+    font-size: 25px;
+    margin: 0px 20px;
+}
+.mid-left-upper3 {
+    color: white;
+    background-color: violet;
+    font-size: 25px;
+}
+.mid-left-lower {
+    background-color: burlywood;
+    color: white;
+    font-size: 20px;
+}
+.mid-right-side {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+.last-heading {
+    background-color: skyblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+
