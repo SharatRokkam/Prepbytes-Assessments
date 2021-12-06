@@ -1,0 +1,65 @@
+.description{
+        margin-top: 10rem;
+        color: white;
+        /* margin-left: 0rem; */
+    }
+    .description h1{
+        font-size: 7rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourdeserts{
+        margin: 5rem -4rem;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 40rem 40rem;
+        grid-gap: 3rem 1rem;
+      
+    }
+    .desert{
+        width: 35rem;
+        height: 24rem;
+        border-radius: 1.2rem;
+        cursor: pointer;
+        transition:0.5s;
+            
+    }
+    .desert h2, .desert p{
+        text-align: start;
+        margin-top: 3%;
+        margin-left: 3%;  
+        color: white;
+        line-height: 2.2rem;
+        text-shadow: .1rem .1rem .1rem whitesmoke;
+        /* font-size: 1rem;   */
+        }
+        .desert h2{
+          letter-spacing: .3rem;
+        }
+        .desert:hover{
+        transform: translateY(-1rem);
+        
+        }
+        #box-1{
+            background-image: url(./images/pic-1.png);
+            background-size: 100%;
+            
+            
+        }
+        #box-2{
+            background-image: url(./images/pic-2.png);
+            background-size: 100%;
+            
+        }
+        #box-3{
+            background-image: url(./images/pic-3.png);
+            background-size: 100%;
+            
+        }
+        #box-4{
+            background-image: url(./images/pic-4.png);
+            background-size: 100%;
+            
+        }
+
+    
+
