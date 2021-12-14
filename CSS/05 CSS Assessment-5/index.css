@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+.container{
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    color: tomato;
+}
+.box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 18px 18px;
+    margin: 30px 30px ;
+}
+.box1 {
+    background-color: rgb(98, 101, 238);
+    margin-top: 15px;
+    animation-name: box1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box1 {
+    30%{
+        transform: skewX(30deg);
+    }
+    50%{
+        transform: skewX(-30deg);
+    }
+    
+}
+.box2 {
+    background-color: indianred;
+    margin-top: 20px;
+    animation-name: box2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box2 {
+    30%{
+        transform: skewY(30deg);
+    }
+    50%{
+        transform: skewY(-30deg);
+    }
+    
+}
+.box3 {
+    background-color: rgb(255, 81, 0);
+    margin-top: 30px;
+    animation-name: box3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box3 {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+    
+}
+.box4-1 {
+    background-color: lawngreen;
+    /* margin-left: 50px; */
+    animation-name: box4-1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box4-1 {
+    40% {
+        transform: scaleY(2);
+        width: 50px;
+        height: 10px;
+    }
+    
+    60% {
+        transform: scaleY(2);
+        width: 50px;
+        height: 10px;
+    }
+    
+}
+.box4-2 {
+    background-color: maroon;
+    margin-left: 70px;
+    animation-name: box4-2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box4-2 {
+    40% {
+        transform: scaleX(2);
+        
+    }
+    
+    60% {
+        transform: scaleX(2);
+        
+    }
+    
+}
+.box4-3 {
+    margin-left: 70px;
+    background-color: rgb(148, 134, 201);
+    border-radius: 10px;
+    margin-top: 20px;
+    animation-name: box4-3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes box4-3 {
+    50% {
+        transform: rotate(95deg);
+    }
+    50% {
+        transform: rotate(95deg);
+    }
+    
+    
+}
+
+.box5{
+    font-size: 30px;
+}
+
+.list-second {
+    margin-left: 500px;
+    /* padding: auto; */
+    width: 0px;
+}
+.boxx{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: rgb(94, 119, 228);
+}
+.box-1 {
+    transition: width 2s;
+}
+.box-1:hover{
+    width: 300px;
+}
+
+.box-2 {
+    transition: width 2s, height 2s;
+}
+.box-2:hover{
+    width: 300px;
+    height: 250px;
+}
+.box-3 {
+    transition: width 2s linear;
+}
+.box-3:hover{
+    width: 300px;
+}
+.box-4 {
+    transition: width 2s ease;
+}
+.box-4:hover{
+    width: 300px;
+}
+.box-5 {
+    transition: width 2s ease-in;
+}
+.box-5:hover{
+    width: 300px;
+}
+.box-6 {
+    transition: width 2s ease-out;
+}
+.box-6:hover{
+    width: 300px;
+}
+.box-7 {
+    transition: width 2s ease-in-out;
+}
+.box-7:hover{
+    width: 300px;
+}
+
+.back {
+    background-image: url(./images/sky.jpg);
+    background-size: cover;
+    height: 720px;
+    overflow: hidden;
+  }
+  .header {
+    font-size: 50px;
+    text-align: center;
+  }
+  .sun {
+    margin-left: 88%;
+    animation-name: sun;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    
+  }
+  @keyframes sun {
+    0% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(-1300px);
+    }
+  }
+  .city {
+    width: 1000%;
+    height: 250px;
+    background-image: url(./images/city.png);
+    background-repeat: repeat-x;
+    animation-name: city-ani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes city-ani {
+    100% {
+      transform: translateX(-1500px);
+    }
+  }
+  .road {
+    height: 100%;
+    width: 1000%;
+    background-image: url(./images/road.jpg);
+    background-repeat: repeat-x;
+    animation-name: road-ani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes road-ani {
+    100% {
+      transform: translateX(-1500px);
+    }
+  }
+  .car {
+    position: absolute;
+    top: 350px;
+    left: 30%;
+  }
+  .flag {
+    position: relative;
+    top: -200px;
+    left: 400px;
+  }
+  .wheels {
+    position: absolute;
+    top: 460px;
+    left: 33.2%;
+  }
+  .wheel1 {
+    animation-name: wheel-ani;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+  }
+  .wheel2 {
+    animation-name: wheel-ani;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+  }
+  @keyframes wheel-ani {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .wheel2 {
+    position: relative;
+    left: 112%;
+  }
+  @keyframes first-row {
+    0% {
+      transform: skewX(0deg);
+    }
+    25% {
+      transform: skewx(20deg);
+    }
+    75% {
+      transform: skewX(-20deg);
+    }
+    100% {
+      tranform: skewX(0deg);
+    }
+  }
+  @keyframes second-row {
+    0% {
+      transform: skewY(0deg);
+    }
+    25% {
+      transform: skewY(20deg);
+    }
+    75% {
+      transform: skewY(-20deg);
+    }
+    100% {
+      tranform: skewY(0deg);
+    }
+  }
+  @keyframes third-row {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes fourth1-row {
+    50% {
+      transform: scaleY(50%);
+    }
+  }
+  @keyframes fourth2-row {
+    50% {
+      transform: scaleX(50%);
+    }
+  }
+  @keyframes fourth3-row {
+    50% {
+      transform: rotate(100deg);
+    }
+  }
